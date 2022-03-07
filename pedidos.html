@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9491ab7228.js"></script>
+    <title>Napolitan cakes</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    <label class="logo">Napolitan</label>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a class="active" href="./pedidos.html">Pedidos</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <br>
+        <h1>Haga su pedido</h1>
+        <br>
+        Nombre: <input type="text" style="width: 200px; height: 40px; text-align: center;" name="nombre" placeholder="Escriba su nombre" width="300px" height="300px"><br><br>
+        Apellido: <input type="text" style="width: 200px; height: 40px; text-align: center;" name="apellido" placeholder="Escriba su apellido"><br><br>
+        Direccion: <input type="text" style="width: 200px; height: 40px; text-align: center;" name="direccion" placeholder="Escriba su direccion"><br><br>
+        Telefono: <input type="tel" style="width: 200px; height: 40px; text-align: center;" name="telefono" placeholder="Escriba su numero telefonico"><br><br>
+        E-mail: <input type="email" style="width: 200px; height: 40px; text-align: center;" name="correo" placeholder="Escriba su correo"><br><br>
+        Descripcion del pastel: <br><input type="text" style="width: 500px; height: 60px; text-align: center;" name="descripcion" placeholder="Escriba aqui como desa que se realice su pastel"
+        <br><br><br>
+        Seleccione sus toppings:
+        <br><br>
+        <label class="add-margin">
+        <input type="checkbox" name="chispas"> <strong>Chispas</strong> </label>
+        <label class="add-margin">
+        <input type="checkbox" name="chispas"> <strong>Cajeta</strong></label>
+        <label class="add-margin">
+        <input type="checkbox" name="chispas"> <strong>Galleta</strong></label>
+        <label class="add-margin">
+        <input type="checkbox" name="chispas"> <strong>Crema</strong></label>
+        <label class="add-margin">
+        <input type="checkbox" name="chispas"> <strong>Cerezas</strong></label>
+        <label class="add-margin">
+        <input type="checkbox" name="chispas"> <strong>Nuez</strong></label>
+        <br><br><br>
+        Seleccione el sabor del pan:
+        <br><br>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Vainilla</strong> </label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>chocolate</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Choco-Vainilla</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Marmoleado</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Zanahoria</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Red Velvet</strong></label>
+        <br><br><br>
+        Seleccione el tipo del pan:
+        <br><br>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Normal</strong> </label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>3 leches</strong></label><br><br>
+        Seleccione el relleno:
+        <br><br>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Vainilla</strong> </label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>chocolate</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Cajeta</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Mermelada</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Queso</strong></label>
+        <label class="add-margin">
+        <input type="radio" name="chispas"> <strong>Crema pastelera</strong></label>
+        <br><br><br>
+        <button style="width: 200px; height: 40px; text-align: center;"onclick="myFunction()">Enviar</button>
+        <br><br>
+        <p id="orden"></p>
+        <script>
+            function myFunction() {
+              document.getElementById("orden").innerHTML = "¡Gracias, su pedido se ha registrado!";
+            }
+            </script>
+
+
+
+        </form>
+    </select>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+</body>
+</html>
